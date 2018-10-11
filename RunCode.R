@@ -52,3 +52,4 @@ library(dplyr)
 sum_data<-aggregate(. ~Subject + Activity, sel_data, mean)
 sum_data<-sum_data[order(sum_data$Subject,sum_data$Activity),]
 
+write.table("tidy.txt",row.name=FALSE)
