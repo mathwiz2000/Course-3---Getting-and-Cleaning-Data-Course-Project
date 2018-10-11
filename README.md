@@ -8,4 +8,4 @@ Readme.md - this file
 
 RunCode.r - read and transform the data
 
-CodeBook.md - 
+CodeBook.md - describes the solution presented in RunCode.r
