@@ -33,4 +33,4 @@ We use *grep* to filter out measurements that are not *mean* and *std*.
 
 We use *sub* command to tidy up the column names.
 
-Finally, we use *plyr* library to summarize the clean data by the *mean*.
+Finally, we use *dplyr* library to summarize the clean data by the *mean*.
